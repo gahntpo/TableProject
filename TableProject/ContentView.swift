@@ -8,17 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var customers: [Customer] = Customer.examples()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        Table(of: Customer.self) {
+            TableColumn("Name", value: \.name)
+            TableColumn("Email", value: \.email)
+            
+            TableColumn("Date") { customer in
+                Text(customer.creationDate, style: .date)
+            }
+        } rows: {
+            ForEach(customers) { customer in
+                TableRow(customer)
+                    .contextMenu {
+                        Button("Edit") {
+                            // TODO open editor in inspector
+                        }
+                        Button("See Details") {
+                           // TODO open detai view
+                        }
+                        Divider()
+                        
+                        Button(role: .destructive) {
+                            
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
+
+                    }
+            }
+            
+            TableRow(Customer(name: "Dummy", email: "abc@xwz.com", creationDate: Date()))
         }
-        .padding()
+       // .tableStyle(.bordered(alternatesRowBackgrounds: false))
+       // .alternatingRowBackgrounds(.disabled)
+        .scrollDisabled(false)
+        //.scrollContentBackground(.hidden)
+       // .background(Color.pink)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

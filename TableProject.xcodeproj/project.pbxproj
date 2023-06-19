@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171722072A404FBF00E0F3BA /* SelectTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171722062A404FBF00E0F3BA /* SelectTableExampleView.swift */; };
+		171722092A40520D00E0F3BA /* SortTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171722082A40520D00E0F3BA /* SortTableExampleView.swift */; };
+		1717220B2A40559300E0F3BA /* FilterTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717220A2A40559300E0F3BA /* FilterTableExampleView.swift */; };
+		1717220D2A40586100E0F3BA /* CompactTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717220C2A40586100E0F3BA /* CompactTableExampleView.swift */; };
+		1717220F2A405A0000E0F3BA /* CompactAdjustmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717220E2A405A0000E0F3BA /* CompactAdjustmentExampleView.swift */; };
+		171722112A405BB900E0F3BA /* CompactAdjustmentSecExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171722102A405BB900E0F3BA /* CompactAdjustmentSecExampleView.swift */; };
 		17BDFE7C2A4038AD00F500D5 /* TableProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDFE7B2A4038AD00F500D5 /* TableProjectApp.swift */; };
 		17BDFE7E2A4038AD00F500D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDFE7D2A4038AD00F500D5 /* ContentView.swift */; };
 		17BDFE802A4038AE00F500D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BDFE7F2A4038AE00F500D5 /* Assets.xcassets */; };
 		17BDFE842A4038AE00F500D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BDFE832A4038AE00F500D5 /* Preview Assets.xcassets */; };
+		17BDFE8D2A4038CD00F500D5 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDFE8C2A4038CD00F500D5 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171722062A404FBF00E0F3BA /* SelectTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableExampleView.swift; sourceTree = "<group>"; };
+		171722082A40520D00E0F3BA /* SortTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableExampleView.swift; sourceTree = "<group>"; };
+		1717220A2A40559300E0F3BA /* FilterTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableExampleView.swift; sourceTree = "<group>"; };
+		1717220C2A40586100E0F3BA /* CompactTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactTableExampleView.swift; sourceTree = "<group>"; };
+		1717220E2A405A0000E0F3BA /* CompactAdjustmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactAdjustmentExampleView.swift; sourceTree = "<group>"; };
+		171722102A405BB900E0F3BA /* CompactAdjustmentSecExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactAdjustmentSecExampleView.swift; sourceTree = "<group>"; };
 		17BDFE782A4038AD00F500D5 /* TableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BDFE7B2A4038AD00F500D5 /* TableProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableProjectApp.swift; sourceTree = "<group>"; };
 		17BDFE7D2A4038AD00F500D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17BDFE7F2A4038AE00F500D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BDFE812A4038AE00F500D5 /* TableProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableProject.entitlements; sourceTree = "<group>"; };
 		17BDFE832A4038AE00F500D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17BDFE8C2A4038CD00F500D5 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 			children = (
 				17BDFE7B2A4038AD00F500D5 /* TableProjectApp.swift */,
 				17BDFE7D2A4038AD00F500D5 /* ContentView.swift */,
+				171722062A404FBF00E0F3BA /* SelectTableExampleView.swift */,
+				171722082A40520D00E0F3BA /* SortTableExampleView.swift */,
+				1717220A2A40559300E0F3BA /* FilterTableExampleView.swift */,
+				1717220C2A40586100E0F3BA /* CompactTableExampleView.swift */,
+				1717220E2A405A0000E0F3BA /* CompactAdjustmentExampleView.swift */,
+				171722102A405BB900E0F3BA /* CompactAdjustmentSecExampleView.swift */,
+				17BDFE8A2A4038C000F500D5 /* model */,
 				17BDFE7F2A4038AE00F500D5 /* Assets.xcassets */,
 				17BDFE812A4038AE00F500D5 /* TableProject.entitlements */,
 				17BDFE822A4038AE00F500D5 /* Preview Content */,
@@ -67,6 +88,14 @@
 				17BDFE832A4038AE00F500D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17BDFE8A2A4038C000F500D5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				17BDFE8C2A4038CD00F500D5 /* Customer.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BDFE8D2A4038CD00F500D5 /* Customer.swift in Sources */,
 				17BDFE7E2A4038AD00F500D5 /* ContentView.swift in Sources */,
+				1717220F2A405A0000E0F3BA /* CompactAdjustmentExampleView.swift in Sources */,
+				171722112A405BB900E0F3BA /* CompactAdjustmentSecExampleView.swift in Sources */,
+				1717220B2A40559300E0F3BA /* FilterTableExampleView.swift in Sources */,
+				171722072A404FBF00E0F3BA /* SelectTableExampleView.swift in Sources */,
+				1717220D2A40586100E0F3BA /* CompactTableExampleView.swift in Sources */,
+				171722092A40520D00E0F3BA /* SortTableExampleView.swift in Sources */,
 				17BDFE7C2A4038AD00F500D5 /* TableProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
