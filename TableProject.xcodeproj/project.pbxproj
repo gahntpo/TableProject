@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1711A5032A4C64C4001F2EBC /* table_macos.png in Resources */ = {isa = PBXBuildFile; fileRef = 1711A5022A4C64C4001F2EBC /* table_macos.png */; };
 		171722072A404FBF00E0F3BA /* SelectTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171722062A404FBF00E0F3BA /* SelectTableExampleView.swift */; };
 		171722092A40520D00E0F3BA /* SortTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171722082A40520D00E0F3BA /* SortTableExampleView.swift */; };
 		1717220B2A40559300E0F3BA /* FilterTableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717220A2A40559300E0F3BA /* FilterTableExampleView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1711A5022A4C64C4001F2EBC /* table_macos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_macos.png; sourceTree = "<group>"; };
 		171722062A404FBF00E0F3BA /* SelectTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableExampleView.swift; sourceTree = "<group>"; };
 		171722082A40520D00E0F3BA /* SortTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableExampleView.swift; sourceTree = "<group>"; };
 		1717220A2A40559300E0F3BA /* FilterTableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableExampleView.swift; sourceTree = "<group>"; };
@@ -47,9 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1711A5012A4C64AD001F2EBC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1711A5022A4C64C4001F2EBC /* table_macos.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		17BDFE6F2A4038AD00F500D5 = {
 			isa = PBXGroup;
 			children = (
+				1711A5012A4C64AD001F2EBC /* images */,
 				17BDFE7A2A4038AD00F500D5 /* TableProject */,
 				17BDFE792A4038AD00F500D5 /* Products */,
 			);
@@ -158,6 +169,7 @@
 			files = (
 				17BDFE842A4038AE00F500D5 /* Preview Assets.xcassets in Resources */,
 				17BDFE802A4038AE00F500D5 /* Assets.xcassets in Resources */,
+				1711A5032A4C64C4001F2EBC /* table_macos.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
